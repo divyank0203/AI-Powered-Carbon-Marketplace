@@ -1,40 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+AI-Powered Carbon Credits Marketplace
+Overview
 
-## Getting Started
+This project is a prototype marketplace application that enables users to browse, compare, order, and track the delivery of carbon credits, which are treated as digital goods.
 
-First, run the development server:
+The solution is inspired by real-world marketplace leaders (e.g., Amazon, CarbonMark) and is designed to demonstrate end-to-end marketplace flows, domain-aware delivery tracking, and meaningful use of AI for decision support.
 
-```bash
+Problem Statement Alignment
+
+The application directly addresses the hackathon problem statement by enabling users to:
+
+View products offered by multiple sellers across multiple categories
+
+Compare sellers based on price and ratings
+
+Place an order (prototype simulation)
+
+Track delivery through an appropriate digital delivery lifecycle
+
+Read product reviews
+
+Use AI-powered insights to improve purchasing decisions
+
+The chosen marketplace is carbon credits, which are digital assets and therefore require a different delivery model than physical goods.
+
+Marketplace Features
+1. Product Discovery
+
+Multiple carbon credit projects across categories:
+
+Forestry
+
+Renewable Energy
+
+Infrastructure
+
+Each project displays:
+
+Location
+
+Certification (VERRA)
+
+SDGs fulfilled
+
+Description
+
+2. Multi-Seller Comparison
+
+Each project can be purchased from multiple sellers
+
+Users can compare:
+
+Price per credit
+
+Seller rating
+
+Clear call-to-action to initiate purchase
+
+3. Ordering & Digital Delivery Tracking
+
+Orders are placed in a simulated environment
+
+Delivery tracking is modeled as a digital lifecycle, not physical logistics:
+
+Order Placed
+
+Payment Confirmed
+
+Registry Verification
+
+Credits Delivered to Wallet
+
+This reflects how carbon credits are actually issued and transferred in real markets.
+
+4. Reviews
+
+Users can read reviews from verified buyers
+
+Reviews contribute to trust and transparency in the marketplace
+
+AI-Powered Innovation
+AI Decision Assistant
+
+Instead of using AI as a generic chatbot, the application uses AI to assist users at the decision-making stage.
+
+The AI Decision Assistant:
+
+Summarizes the environmental and compliance impact of a project
+
+Helps users choose between sellers based on impact, certification, and value
+
+Reduces cognitive load in a trust-sensitive marketplace
+
+This is a context-aware and purposeful use of AI, focused on decision support rather than novelty.
+
+Why This Is Innovative
+
+Domain-aware delivery tracking: Digital assets are tracked using lifecycle states instead of GPS-based logistics.
+
+Meaningful AI integration: AI is used to assist comparison and decision-making, not as a gimmick.
+
+Trust-first marketplace design: Certification, SDGs, and seller transparency are first-class features.
+
+Right-sized scope: A complete, coherent end-to-end flow is prioritized over superficial feature breadth.
+
+Tech Stack
+
+Frontend: Next.js (Pages Router), React
+
+Styling: Tailwind CSS
+
+Backend: Mock data (prototype-focused)
+
+AI: LLM-powered insights (simulated for prototype)
+
+Deployment: Vercel / Local run
+
+Running the Project Locally
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Open the browser at:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+http://localhost:3000
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Prototype Disclaimer
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This is a hackathon prototype intended to demonstrate product thinking, UX flows, and system design.
+Payments, authentication, and live registry integrations are intentionally simulated.
 
-## Learn More
+Future Scope
 
-To learn more about Next.js, take a look at the following resources:
+Integration with real carbon registries (e.g., VERRA APIs)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Blockchain-backed credit verification
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Institutional buyer dashboards
 
-## Deploy on Vercel
+Dynamic pricing and market analytics
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+User personalization and dark mode support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Conclusion
+
+This prototype demonstrates how a marketplace can be adapted intelligently to digital goods, with delivery, trust, and AI-driven decision-making designed specifically for the carbon credits domain.
