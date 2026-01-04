@@ -23,4 +23,46 @@ export const products = [
       },
     ],
   },
+  {
+    id: "2",
+    name: "Wind Energy Expansion Project",
+    category: "Renewable Energy",
+    location: "India",
+    verraCertified: true,
+    sdgs: ["Affordable Clean Energy", "Climate Action"],
+    description:
+      "Wind farm expansion supporting clean energy generation and grid stability.",
+    sellers: [
+      {
+        sellerId: "S3",
+        name: "RenewX",
+        pricePerCredit: 9,
+        rating: 4.5,
+      },
+      {
+        sellerId: "S4",
+        name: "CarbonBridge",
+        pricePerCredit: 11,
+        rating: 4.3,
+      },
+    ],
+  },
+  {
+    id: "3",
+    name: "Industrial Methane Capture",
+    category: "Infrastructure",
+    location: "USA",
+    verraCertified: false,
+    sdgs: ["Industry Innovation", "Climate Action"],
+    description:
+      "Capturing methane emissions from industrial waste facilities.",
+    sellers: [
+      {
+        sellerId: "S5",
+        name: "InfraCarbon",
+        pricePerCredit: 8,
+        rating: 4.1,
+      },
+    ],
+  },
 ];
