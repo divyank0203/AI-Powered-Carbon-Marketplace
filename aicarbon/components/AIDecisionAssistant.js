@@ -10,6 +10,10 @@ export default function AIDecisionAssistant({ product }) {
         for buyers prioritizing sustainability and compliance. Forestry projects
         currently show higher long-term value appreciation.
       </p>
+      <p className="text-xs text-gray-600 mt-2">
+  Prototype feature — future versions will use real-time market and registry data.
+</p>
+
     </div>
   );
 }

@@ -4,7 +4,15 @@ import ProductCard from "../components/ProductCard";
 
 export default function Home() {
   return (
+    
     <div className="p-8">
+      <a
+  href="/orders"
+  className="inline-block mb-6 text-green-700 font-medium underline"
+>
+  View My Orders →
+</a>
+
       <h1 className="text-3xl font-bold text-green-600 mb-4">
         AI-Powered Carbon Credits Marketplace
       </h1>
